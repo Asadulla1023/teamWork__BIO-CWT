@@ -383,3 +383,125 @@ p > span {
     width: 337px;
     left: -200px;
 }
+
+.questions > h2 {
+    text-align: right;
+    letter-spacing: 5px;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.questions__form {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form > input {
+    display: block;
+    width: 598px;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 50px;
+    border: 4px solid #728BAD;
+    font-family: "Montserrat", sans-serif;
+    background: transparent;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+form > input:active {
+    border: 4px solid #728BAD;
+}
+
+textarea {
+    resize: none;
+    width: 598px;
+    height: 255px;
+    border-radius: 50px;
+    border: 4px solid #728BAD;
+    font-family: "Montserrat", sans-serif;
+    background: transparent;
+    padding-left: 30px;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+form > button {
+    margin-top: 20px;
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background: #728BAD;
+    transition: 0.3s linear;
+}
+
+form > button:active {
+    color: #728BAD;
+    background: #fff;
+}
+
+
+.whatCanIWrite > p {
+    width: 546px;
+    font-size: 30px;
+    color: #fff;
+    text-align: end;
+}
+
+.whatCanIWrite > img {
+    position: relative;
+    top: 130px;
+    width: 477px;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.688) 0px -5px 15px;
+    width: 100%;
+    height: 300px;
+    background: #222021;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-between;
+    display: flex;
+}
+
+li {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li>a {
+    font-size: 20px;
+}
+li>img {
+    width: 37px;
+}
+
+.privacy {
+    margin-top: 50px;
+}
+
+.privacy > a {
+    font-size: 20px;
+}
