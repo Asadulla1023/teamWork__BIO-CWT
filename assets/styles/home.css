@@ -59,6 +59,7 @@ a:hover {
     background: #1E0C06;
     box-shadow: rgba(255, 255, 255, 0.688) 0px 5px 15px;
     transition: 2s linear;
+    margin-bottom: 150px;
 }
 
 .cont {
@@ -67,6 +68,10 @@ a:hover {
     align-items: center;
     width: 1080px;
     color: #fff;
+}
+
+img {
+    width: 205px;
 }
 
 .main__left {
@@ -138,4 +143,75 @@ a:hover {
     position: relative;
     left: 25px;
     top: 80px;
+}
+
+.howWeDoIt {
+    text-align: center;
+}
+
+.howWeDoIt__title > h2 {
+    font-size: 90px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 120px;
+}
+
+.howWeDoIt__title {
+    color: #fff;
+    width: 746px;
+}
+
+.about__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.object {
+    width: 210px;
+}
+
+.object > img {
+    margin-bottom: 40px;
+}
+
+.object > h3 {
+    font-size: 30px;    
+}
+
+.checking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-object {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.checking > img {
+    position: relative;
+    left: 35px;
+    width: 25px;
+}
+
+.checking > p {
+    position: relative;
+    left: -20px;
+    width: 120px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    opacity: 0;
 }
