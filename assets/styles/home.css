@@ -1,10 +1,142 @@
-.header {
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .container {
-    width: 1441px;
-    border: 1px solid #fff;
+    width: 1240px;
+}
+
+.header > .navigation {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.logo > a > img {
+    width: 197px;
+}
+
+.navigate {
+    width: 605px;
+    
+}
+.navigate > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s linear;
+    animation: animate__pulse;
+    animation-duration: 2s;
+}
+a:hover {
+    color: #aaa;
+    font-size: 24px;
+}
+
+.header__main {
+    width: 1245px;
+    position: relative;
+    left: 100px;
+    height: 714px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px 0px 0 70px;
+    background: #1E0C06;
+    box-shadow: rgba(255, 255, 255, 0.688) 0px 5px 15px;
+    transition: 2s linear;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    color: #fff;
+}
+
+.main__left {
+    width: 580px;
+}
+
+.main__left > h2 {
+    text-transform: uppercase;
+    font-size: 90px;
+    width: 300px;
+}
+
+.main__left > p {
+    color: #FFDBBB;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    width: 330px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.main__left > p > span {
+    font-weight: bold;
+}
+
+.main__left > button {
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background: #728BAD;
+    transition: 0.3s linear;
+}
+
+.main__left > button:hover {
+    font-size: 40px;
+    width: 250px;
+}
+
+.main__left > button:active {
+    color: #728BAD;
+    background: #fff;
+}
+
+.main__center {
+    height: 560px;
+    width: 1px;
+    background: linear-gradient(#fff, #000);
+}
+
+.main__right {
+    width: 474px;
+}
+
+.main__right > img {
+    width: 205px;
+    display: block;
+}
+
+.header__img {
+    position: relative;
+    left: 270px;
+}
+
+.header__img2 {
+    position: relative;
+    left: 25px;
+    top: 80px;
 }
