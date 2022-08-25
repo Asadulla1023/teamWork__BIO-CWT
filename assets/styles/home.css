@@ -399,6 +399,7 @@ p > span {
 }
 
 form > input {
+    color: #fff;
     display: block;
     width: 598px;
     margin-bottom: 20px;
@@ -417,6 +418,7 @@ form > input:active {
 }
 
 textarea {
+    color: #fff;
     resize: none;
     width: 598px;
     height: 255px;
