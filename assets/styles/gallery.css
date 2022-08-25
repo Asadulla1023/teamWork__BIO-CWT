@@ -12,7 +12,7 @@
 
 .nav-bg {
     background: #1E0C06;
-    height: 200px;
+    height: 150px;
     box-shadow: 0px -8px 52px rgba(238, 238, 238, 0.17);
     border-radius: 0px 0px 79px 79px;
 }
@@ -35,8 +35,6 @@ nav ul li {
     margin-right: 63px;
 }
 
-
-
 .nav-links a {
     text-decoration: none;
     font-weight: 700;
@@ -54,12 +52,19 @@ nav ul li {
 }
 
 .logo img {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 197px;
 }
 
 .navbar-container  {
     max-width: 1240px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 2px;
+}
+
+.container {
+    max-width: 1440px;
     margin: auto;
     padding-left: 20px;
     padding-right: 2px;
@@ -71,4 +76,45 @@ nav ul li {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.header__title {
+    font-family: 'KyivType Sans';
+    font-size: 90px;
+    font-weight: 500;
+    color: #F5F5F5;
+    margin: 102px 0 121px 0;
+    letter-spacing: 1px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 60rem;
+    height: 40rem;
+    object-fit: cover;
+  }
 

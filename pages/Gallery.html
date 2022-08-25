@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../assets/styles/gallery.css">
     <link rel="stylesheet" href="../assets/styles/style.css">
+      <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../assets/styles/swiper.css">  
 </head>
 <body>
     <div class="header">
@@ -23,10 +25,52 @@
                             <li class="nav-links"><a href="#">About us</a></li>
                             <li class="nav-links"><a href="#">Contact</a></li>
                         </ul>
+                        <div class="burger">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
                     </nav>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-1 ">
+                <h1 class="header__title">Our work</h1>
+            </div>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="../assets/images/gallaery-swiper__img.png" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/images/gallaery-swiper__img.png" alt=""></div>
+              <div class="swiper-slide"><img src="../assets/images/gallaery-swiper__img.png" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <script src="../assets/Js/script.js"></script>
+    <!-- Swiper js -->
+    <script src="../assets/Js/swiper.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          cssMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          mousewheel: true,
+          keyboard: true,
+        });
+      </script>
 </body>
 </html>
